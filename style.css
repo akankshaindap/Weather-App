@@ -115,6 +115,7 @@ body{
     justify-content:space-between;
     font-size: small;
     padding: 12px;
+    margin: -2px;
 
 }
 .weather-icon{
