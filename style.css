@@ -120,7 +120,12 @@ body{
 }
 
 .weather h1{
+    margin: -10px;
     font-size: 5rem;
+}
+.weather-icon{
+   width: 8rem;
+   
 }
 .weather h2{
     font-size:2rem ;
@@ -131,7 +136,7 @@ body{
     margin: 1px;
 }
 .col img{
-    width: 3-5rem;
+    width: 3.5rem;
 }
 
 }
