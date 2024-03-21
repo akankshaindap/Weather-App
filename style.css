@@ -120,7 +120,7 @@ body{
 }
 
 .weather h1{
-    margin: -30px;
+    margin: -20px;
     font-size: 5rem;
 }
 .weather-icon{
@@ -130,13 +130,15 @@ body{
 .weather h2{
     font-size:2rem ;
 }
-.col p{
-    text-align: center;
-    font-size: 1.5rem;
+.humidity ,.wind{
+    font-size: 2.5rem;
     margin: 1px;
 }
 .col img{
     width: 4rem;
+}
+p{
+    font-size: 1.5rem;
 }
 
 }
