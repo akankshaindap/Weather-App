@@ -28,12 +28,12 @@ async function checkWeather(city){
         else if(data.weather[0].main=='Clear'){
             cardColor.style.background='linear-gradient(135deg,#9addda,#addaeb)'
     
-            weatherIcon.src="assets/clear.png"
+            weatherIcon.src="/assets/clear.png"
         }
         else if(data.weather[0].main=='Smoke'){
             cardColor.style. background='linear-gradient(135deg,#7c807f,#cde6e0)'
     
-            weatherIcon.src="assets/smoke.png"
+            weatherIcon.src="/assets/smoke.png"
         }
         else if(data.weather[0].main=='Drizzle'){
             cardColor.style.background='linear-gradient(135deg,#90d3cd,#3294a1 )'
@@ -43,16 +43,16 @@ async function checkWeather(city){
         else if(data.weather[0].main=='Mist'){
             cardColor.style.background='linear-gradient(135deg,#ccc5e7,#d2e6e9)'
     
-            weatherIcon.src="assets/mist.png"
+            weatherIcon.src="/assets/mist.png"
         }
         else if(data.weather[0].main=='Rain'){
             cardColor.style.background='linear-gradient(135deg,#4e7677,#85a1bb)'
-            weatherIcon.src="assets/rain.png"
+            weatherIcon.src="/assets/rain.png"
         }
         else if(data.weather[0].main=='Snow'){
             cardColor.style.background='linear-gradient(135deg,#d0ecee,#cbe0f5)'
     
-            weatherIcon.src="assets/snow.png"
+            weatherIcon.src="/assets/snow.png"
         }
         document.querySelector('.weather').style.display="block";
         document.querySelector('.error').style.display='none'
