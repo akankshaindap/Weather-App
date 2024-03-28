@@ -108,11 +108,12 @@ body{
 
 .card{
     margin: 20px;
+    width: 20rem;
     
 }
 .search input{
     width: 17rem;
-    margin-left: -12px;
+    margin-left: -15px;
 }
 .details {
     display: flex;
