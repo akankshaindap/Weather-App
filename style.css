@@ -109,6 +109,7 @@ body{
 .card{
     margin: 20px;
     width: 21rem;
+    padding: 5px;
     
 }
 .search input{
