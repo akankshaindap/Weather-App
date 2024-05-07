@@ -59,6 +59,11 @@ async function checkWeather(city){
     
             weatherIcon.src="/assets/snow.png"
         }
+        else if(data.weather[0].main=='Haze'){
+            cardColor.style.background='linear-gradient(135deg, #d8b06a, #5dcde9)'
+    
+            weatherIcon.src="/assets/haze.png"
+        }
         document.querySelector('.weather').style.display="block";
         document.querySelector('.error').style.display='none'
     }

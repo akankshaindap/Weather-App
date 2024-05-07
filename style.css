@@ -16,7 +16,7 @@ body{
 .card{
     
     max-width: 480px;
-    background: linear-gradient(130deg,#9ff0c3a2,#4fb1d84d);
+    background: linear-gradient(135deg, #387438 0%, #196092);
     color: rgb(255, 255, 255);
     margin:  100px auto 0;
     border-radius: 20px;
@@ -117,11 +117,11 @@ body{
 }
 .details {
     display: flex;
-   flex-wrap: wrap;
-    justify-content:space-between;
+    justify-content:center;
     font-size: small;
-    padding: 10px;
-    margin: -2px;
+    margin-left: -3rem;
+    width: 20rem;
+    border-bottom: 2px solid #555;
 
 }
 
@@ -136,16 +136,15 @@ body{
 .weather h2{
     font-size:2rem ;
 }
-.humidity ,.wind,.pressure,.real-feel{
+
+.humidity ,.wind ,.pressure ,.real-feel{
     font-size: 1rem;
-    margin: 1px;
+    margin: 0.4rem;
 }
 .col img{
-    width: 4rem;
+    width: 3rem;
 }
-p{
-    font-size: 2.5rem;
-}
+
 
 }
 
