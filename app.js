@@ -19,7 +19,10 @@ async function checkWeather(city){
 
         document.querySelector('.city').innerHTML=data.name
         document.querySelector('.humidity').innerHTML=data.main.humidity    +' %'
-        document.querySelector('.wind').innerHTML=data.wind.speed +'km/h'
+        document.querySelector('.wind').innerHTML = data.wind.speed + 'km/h'
+        document.querySelector('.pressure').innerHTML = data.main.pressure + 'mbar'
+        document.querySelector('.real-feel').innerHTML= Math.round(data.main.feels_like)   +'&#8451'
+
         document.querySelector('.temp').innerHTML=Math.round(data.main.temp) + `&#8451`
    
 
