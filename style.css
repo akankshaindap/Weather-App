@@ -116,8 +116,9 @@ body{
     margin-left:-1.6rem;
 }
 .search img{
-    height: 2.5rem;
+    height: 2.6rem;
     width: 2.5rem;
+    left: -20px;
 }
 .details {
     display: flex;
