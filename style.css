@@ -107,13 +107,14 @@ body{
 @media (min-width: 275px)and (max-width:420px){
 
 .card{
-    margin: 5rem;
+    margin: 20px;
     width: 21rem;
     padding: 5px;
     
 }
 .search input{
     width: 19rem;
+    height: 4rem;
     margin-right: -25px;
 }
 .details {
@@ -148,9 +149,6 @@ body{
 }
 .col{
     border-left: 1px solid black;
-}
-.search img{
-    width: 1rem;
 }
 
 }
