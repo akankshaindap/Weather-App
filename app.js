@@ -15,7 +15,7 @@ async function checkWeather(city){
     else{
         var data=await response.json();
         console.log(data)
-        document.querySelector('.name').innerHTML=data.weather[0].main
+        document.querySelector('.name').innerHTML=data.weather[0].main +
 
         document.querySelector('.city').innerHTML=data.name
         document.querySelector('.humidity').innerHTML=data.main.humidity    +' %'
