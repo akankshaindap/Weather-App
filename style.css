@@ -120,7 +120,7 @@ body{
     justify-content:center;
     font-size: small;
     margin-left: -3rem;
-    width: 20rem;
+    width: 19rem;
     padding: 1px;
     border-bottom: 2px solid #555;
 
@@ -145,7 +145,9 @@ body{
 .col img{
     width: 3rem;
 }
-
+.col{
+    border-left: 1px solid black;
+}
 
 }
 
