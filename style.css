@@ -149,6 +149,9 @@ body{
 .col{
     border-left: 1px solid black;
 }
+.search img{
+    width: 1rem;
+}
 
 }
 
