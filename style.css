@@ -108,12 +108,11 @@ body{
 
 .card{
     margin: 20px;
-    width: 21rem;
-    padding: 5px;
+    width: 20rem;
     
 }
 .search input{
-    width: 18rem;
+    width: 17rem;
     margin-left: -15px;
 }
 .details {
@@ -121,7 +120,7 @@ body{
     justify-content:center;
     font-size: small;
     margin-left: -3rem;
-    width: 19rem;
+    width: rem;
     padding: 1px;
     border-bottom: 2px solid #555;
 
@@ -146,9 +145,7 @@ body{
 .col img{
     width: 3rem;
 }
-.col{
-    border-left: 1px solid black;
-}
+
 
 }
 
