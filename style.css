@@ -139,7 +139,7 @@ body{
 }
 
 .humidity ,.wind ,.pressure ,.real-feel{
-    font-size: 1rem;
+    font-size: 2rem;
     margin: 0.4rem;
 }
 .col img{
