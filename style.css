@@ -107,7 +107,7 @@ body{
 @media (min-width: 275px)and (max-width:420px){
 
 .card{
-    margin: 20px;
+    margin: 5rem;
     width: 21rem;
     padding: 5px;
     
