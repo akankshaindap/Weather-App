@@ -113,8 +113,8 @@ body{
     
 }
 .search input{
-    width: 19rem;
-    margin-right: -25px;
+    width: 18rem;
+    margin-left: -15px;
 }
 .details {
     display: flex;
