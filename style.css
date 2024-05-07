@@ -107,7 +107,7 @@ body{
 @media (min-width: 275px)and (max-width:420px){
 
 .card{
-    margin: 20px;
+    margin: 12px;
     width: 20rem;
     
 }
@@ -121,26 +121,25 @@ body{
     font-size: small;
     margin-left:-2.3rem;
     width: 19rem;
-    padding: 1px;
+    padding: 3px;
     border-bottom: 2px solid #555;
 
 }
 
 .weather h1{
-    margin: -20px;
-    font-size: 5rem;
+    margin-top: -2rem;
+    font-size: 3rem;
 }
 .weather-icon{
-   width: 8rem;
+   width: 7rem;
    
 }
 .weather h2{
-    font-size:2rem ;
+    font-size:3rem ;
 }
 
 .humidity ,.wind ,.pressure ,.real-feel{
     font-size: 1rem;
-    margin: 0.4rem;
 }
 .col img{
     width: 3rem;
