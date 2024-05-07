@@ -134,10 +134,11 @@ body{
     font-size: 3rem;
 }
 .weather-icon{
-   width: 7rem;
+   width: 7rem; 
    
 }
 .weather h2{
+    margin-top: -2rem;
     font-size:3rem ;
 }
 
